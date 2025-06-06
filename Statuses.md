@@ -37,6 +37,8 @@
 |🟢| duck life 3  
 |🟢| duck life 4  
 |⚪| eggy car  
+|🟢| eaglercraft 1.8 
+|🟢| eaglercraft 1.12
 |🟢| evil glitch  
 |🟢| flappy bird  
 |🟢| FNAF 1
@@ -86,7 +88,8 @@
 |🟢| papas scooperia  
 |🟢| papas sushiria  
 |🟢| papas taco mia  
-|🟢| papas wingeria  
+|🟢| papas wingeria
+|🟢| plants vs zombies
 |🔴| PC breakdown  
 |🟢| poly track  
 |🟢| push your luck  

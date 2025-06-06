@@ -36,11 +36,16 @@
 |🟢| duck life 2  
 |🟢| duck life 3  
 |🟢| duck life 4  
-|🟢| eggy car  
+|⚪| eggy car  
 |🟢| evil glitch  
 |🟢| flappy bird  
+|🟢| FNAF 1
 |🟢| FNAF 2  
 |🟢| FNAF 3  
+|🟢| FNAF 4
+|🟢| FNAF UCN
+|🟢| FNAF World
+|🟢| FNAF Pizza Sim
 |🟠| Funny Shooter 2  
 |🟢| geometry dash  
 |🟢| Google snake  
@@ -66,7 +71,7 @@
 |🟢| nintendo 64  
 |🟢| oh flip  
 |🟢| other tag  
-|🟢| OVO  
+|🔴| OVO  
 |🟢| papa louie  
 |🟢| papas bakeria  
 |🟢| papas burgeria  

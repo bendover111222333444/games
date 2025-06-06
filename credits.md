@@ -85,9 +85,9 @@
 
 > # Links
 1. **[Main](https://nintendoboi22.github.io)**
-2. **[Main 2](https://nintendoboi222.github.io)**
+2. **[Main 2](https://bendover111222333444.github.io)**
   
 > # DMCA
-- **[DMCA, if needed](https://nintendoboi22.github.io/licence-stuff/dmca)**
+- **[DMCA, if needed](https://bendover111222333444.github.io/licence-stuff/dmca)**
 
 - #### future dnd herem dont sue me because i have no lawyer pls and im brokeeeeeee

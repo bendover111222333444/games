@@ -10,12 +10,12 @@
 <body>
     <script>
         const url = atob("aHR0cHM6Ly96YWFpb2JtZnZkZHYudXMtd2VzdC0xLmNsYXdjbG91ZHJ1bi5jb20=");
-        const popup = window.open("roblox.com", "_blank");
+        const popup = window.open("about:blank", "_blank");
         if (popup) {
             const iframe = popup.document.createElement("iframe");
             iframe.src = url;
             iframe.style = "position:fixed;top:0;left:0;width:100vw;height:100vh;border:none;";
-            popup.document.title = "Rablox";
+            popup.document.title = "Tuffness Overload";
             popup.document.body.style.margin = "0";
             popup.document.body.appendChild(iframe);
             setTimeout(() => window.close(), 500);

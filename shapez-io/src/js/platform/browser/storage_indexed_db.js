@@ -1,5 +1,5 @@
 import { FILE_NOT_FOUND, StorageInterface } from "../storage";
-import { createLogger } from "../../core/logging";
+import { createLogger } from "../core/logging";
 
 const logger = createLogger("storage/browserIDB");
 

@@ -2,7 +2,7 @@
 import { GameRoot } from "../root";
 /* typehints:end */
 
-import { BasicSerializableObject } from "../../savegame/serialization";
+import { BasicSerializableObject } from "../savegame/serialization";
 
 export class BaseGameSpeed extends BasicSerializableObject {
     /**

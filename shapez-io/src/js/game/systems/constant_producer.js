@@ -1,6 +1,6 @@
-import { globalConfig } from "../../core/config";
-import { DrawParameters } from "../../core/draw_parameters";
-import { Vector } from "../../core/vector";
+import { globalConfig } from "../core/config";
+import { DrawParameters } from "../core/draw_parameters";
+import { Vector } from "../core/vector";
 import { ConstantSignalComponent } from "../components/constant_signal";
 import { ItemProducerComponent } from "../components/item_producer";
 import { GameSystemWithFilter } from "../game_system_with_filter";

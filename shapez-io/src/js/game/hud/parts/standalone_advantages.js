@@ -1,8 +1,8 @@
-import { globalConfig, openStandaloneLink } from "../../../core/config";
-import { InputReceiver } from "../../../core/input_receiver";
-import { ReadWriteProxy } from "../../../core/read_write_proxy";
-import { generateFileDownload, makeDiv } from "../../../core/utils";
-import { T } from "../../../translations";
+import { globalConfig, openStandaloneLink } from "../../core/config";
+import { InputReceiver } from "../../core/input_receiver";
+import { ReadWriteProxy } from "../../core/read_write_proxy";
+import { generateFileDownload, makeDiv } from "../../core/utils";
+import { T } from "../../translations";
 import { BaseHUDPart } from "../base_hud_part";
 import { DynamicDomAttach } from "../dynamic_dom_attach";
 

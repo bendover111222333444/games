@@ -1,7 +1,7 @@
-import { globalConfig } from "../../core/config";
-import { DrawParameters } from "../../core/draw_parameters";
-import { clamp, lerp } from "../../core/utils";
-import { Vector } from "../../core/vector";
+import { globalConfig } from "../core/config";
+import { DrawParameters } from "../core/draw_parameters";
+import { clamp, lerp } from "../core/utils";
+import { Vector } from "../core/vector";
 import { GoalAcceptorComponent } from "../components/goal_acceptor";
 import { GameSystemWithFilter } from "../game_system_with_filter";
 import { MapChunk } from "../map_chunk";

@@ -2,13 +2,13 @@
 import { GameRoot } from "../root";
 /* typehints:end */
 
-import { types, BasicSerializableObject } from "../../savegame/serialization";
+import { types, BasicSerializableObject } from "../savegame/serialization";
 import { RegularGameSpeed } from "./regular_game_speed";
 import { BaseGameSpeed } from "./base_game_speed";
 import { PausedGameSpeed } from "./paused_game_speed";
-import { gGameSpeedRegistry } from "../../core/global_registries";
-import { globalConfig } from "../../core/config";
-import { createLogger } from "../../core/logging";
+import { gGameSpeedRegistry } from "../core/global_registries";
+import { globalConfig } from "../core/config";
+import { createLogger } from "../core/logging";
 
 const logger = createLogger("game_time");
 

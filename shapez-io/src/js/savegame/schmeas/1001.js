@@ -1,6 +1,6 @@
 import { SavegameInterface_V1000 } from "./1000.js";
-import { createLogger } from "../../core/logging.js";
-import { T } from "../../translations.js";
+import { createLogger } from "../core/logging.js";
+import { T } from "../translations.js";
 import { TypeVector, TypeNumber, TypeString, TypeNullable } from "../serialization_data_types.js";
 
 const schema = require("./1001.json");

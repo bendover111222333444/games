@@ -3,7 +3,7 @@ import { GameRoot } from "../root";
 import { MetaBuilding } from "../meta_building";
 /* typehints:end */
 
-import { findNiceIntegerValue } from "../../core/utils";
+import { findNiceIntegerValue } from "../core/utils";
 import { MetaConstantProducerBuilding } from "../buildings/constant_producer";
 import { MetaGoalAcceptorBuilding } from "../buildings/goal_acceptor";
 import { enumGameModeIds, enumGameModeTypes, GameMode } from "../game_mode";
@@ -27,7 +27,7 @@ import { HUDTutorialVideoOffer } from "../hud/parts/tutorial_video_offer";
 import { HUDMinerHighlight } from "../hud/parts/miner_highlight";
 import { HUDGameMenu } from "../hud/parts/game_menu";
 import { HUDConstantSignalEdit } from "../hud/parts/constant_signal_edit";
-import { IS_MOBILE } from "../../core/config";
+import { IS_MOBILE } from "../core/config";
 import { HUDKeybindingOverlay } from "../hud/parts/keybinding_overlay";
 import { HUDWatermark } from "../hud/parts/watermark";
 import { HUDStandaloneAdvantages } from "../hud/parts/standalone_advantages";
@@ -35,9 +35,9 @@ import { HUDPartTutorialHints } from "../hud/parts/tutorial_hints";
 import { HUDInteractiveTutorial } from "../hud/parts/interactive_tutorial";
 import { MetaBlockBuilding } from "../buildings/block";
 import { MetaItemProducerBuilding } from "../buildings/item_producer";
-import { MOD_SIGNALS } from "../../mods/mod_signals";
+import { MOD_SIGNALS } from "../mods/mod_signals";
 import { finalGameShape, generateLevelsForVariant } from "./levels";
-import { WEB_STEAM_SSO_AUTHENTICATED } from "../../core/steam_sso";
+import { WEB_STEAM_SSO_AUTHENTICATED } from "../core/steam_sso";
 
 /** @typedef {{
  *   shape: string,

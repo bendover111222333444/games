@@ -1,9 +1,9 @@
-import { globalConfig } from "../../core/config";
-import { DrawParameters } from "../../core/draw_parameters";
-import { Rectangle } from "../../core/rectangle";
-import { AtlasSprite } from "../../core/sprites";
-import { enumDirection, Vector } from "../../core/vector";
-import { types } from "../../savegame/serialization";
+import { globalConfig } from "../core/config";
+import { DrawParameters } from "../core/draw_parameters";
+import { Rectangle } from "../core/rectangle";
+import { AtlasSprite } from "../core/sprites";
+import { enumDirection, Vector } from "../core/vector";
+import { types } from "../savegame/serialization";
 import { getBuildingDataFromCode } from "../building_codes";
 import { Component } from "../component";
 

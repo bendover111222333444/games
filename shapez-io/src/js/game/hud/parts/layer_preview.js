@@ -1,9 +1,9 @@
-import { freeCanvas, makeOffscreenBuffer } from "../../../core/buffer_utils";
-import { globalConfig } from "../../../core/config";
-import { Loader } from "../../../core/loader";
-import { Vector } from "../../../core/vector";
-import { MapChunkView } from "../../map_chunk_view";
-import { THEME } from "../../theme";
+import { freeCanvas, makeOffscreenBuffer } from "../../core/buffer_utils";
+import { globalConfig } from "../../core/config";
+import { Loader } from "../../core/loader";
+import { Vector } from "../../core/vector";
+import { MapChunkView } from "../map_chunk_view";
+import { THEME } from "../theme";
 import { BaseHUDPart } from "../base_hud_part";
 
 /**
@@ -98,7 +98,7 @@ export class HUDLayerPreview extends BaseHUDPart {
 
     /**
      * Renders the preview at the given position
-     * @param {import("../../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../../core/draw_utils").DrawParameters} parameters
      * @param {Vector} worldPos
      * @param {number} scale 1 / zoomLevel
      */

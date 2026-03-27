@@ -59296,7 +59296,7 @@
           };
         } else {
           // for parameter validation
-          var dataDoc = _dereq_('../../../docs/parameterData.json');
+          var dataDoc = _dereq_('../../docs/parameterData.json');
           var arrDoc = JSON.parse(JSON.stringify(dataDoc));
           var docCache = {
           };
@@ -59985,7 +59985,7 @@
         exports.default = _default;
       },
       {
-        '../../../docs/parameterData.json': 1,
+        '../../docs/parameterData.json': 1,
         '../constants': 278,
         '../internationalization': 288,
         '../main': 290,
@@ -60290,14 +60290,14 @@
         languages;
         if (typeof IS_MINIFIED === 'undefined') {
           // internationalization is only for the unminified build
-          var translationsModule = _dereq_('../../translations');
+          var translationsModule = _dereq_('../translations');
           fallbackResources = translationsModule.default;
           languages = translationsModule.languages;
           if (typeof P5_DEV_BUILD !== 'undefined') {
             // When the library is built in development mode ( using npm run dev )
             // we want to use the current translation files on the disk, which may have
             // been updated but not yet pushed to the CDN.
-            var completeResources = _dereq_('../../translations/dev');
+            var completeResources = _dereq_('../translations/dev');
             for (var _i = 0, _Object$keys = Object.keys(completeResources); _i < _Object$keys.length; _i++) {
               var language = _Object$keys[_i]; // In es_translation, language is es and namespace is translation
               // In es_MX_translation, language is es-MX and namespace is translation
@@ -60480,8 +60480,8 @@
         exports.setTranslatorLanguage = setTranslatorLanguage;
       },
       {
-        '../../translations': 349,
-        '../../translations/dev': undefined,
+        '../translations': 349,
+        '../translations/dev': undefined,
         'core-js/modules/es.array.includes': 174,
         'core-js/modules/es.array.iterator': 176,
         'core-js/modules/es.array.join': 177,

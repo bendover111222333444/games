@@ -24,7 +24,7 @@ export class MetaBlockBuilding extends MetaBuilding {
 
     /**
      *
-     * @param {import("../../savegame/savegame_serializer").GameRoot} root
+     * @param {import("../savegame/savegame_serializer").GameRoot} root
      * @returns
      */
     getIsRemovable(root) {

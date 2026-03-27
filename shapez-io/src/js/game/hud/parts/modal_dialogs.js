@@ -1,14 +1,14 @@
 /* typehints:start */
-import { Application } from "../../../application";
+import { Application } from "../../application";
 /* typehints:end */
 
-import { SOUNDS } from "../../../platform/sound";
+import { SOUNDS } from "../../platform/sound";
 import { DynamicDomAttach } from "../dynamic_dom_attach";
 import { BaseHUDPart } from "../base_hud_part";
-import { Dialog, DialogLoading, DialogOptionChooser } from "../../../core/modal_dialog_elements";
-import { makeDiv } from "../../../core/utils";
-import { T } from "../../../translations";
-import { openStandaloneLink } from "../../../core/config";
+import { Dialog, DialogLoading, DialogOptionChooser } from "../../core/modal_dialog_elements";
+import { makeDiv } from "../../core/utils";
+import { T } from "../../translations";
+import { openStandaloneLink } from "../../core/config";
 
 export class HUDModalDialogs extends BaseHUDPart {
     constructor(root, app) {

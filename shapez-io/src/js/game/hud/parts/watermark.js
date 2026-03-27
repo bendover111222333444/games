@@ -1,6 +1,6 @@
-import { globalConfig, openStandaloneLink } from "../../../core/config";
-import { makeDiv } from "../../../core/utils";
-import { T } from "../../../translations";
+import { globalConfig, openStandaloneLink } from "../../core/config";
+import { makeDiv } from "../../core/utils";
+import { T } from "../../translations";
 import { BaseHUDPart } from "../base_hud_part";
 
 export class HUDWatermark extends BaseHUDPart {
@@ -30,7 +30,7 @@ export class HUDWatermark extends BaseHUDPart {
 
     /**
      *
-     * @param {import("../../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../../core/draw_utils").DrawParameters} parameters
      */
     drawOverlays(parameters) {
         const w = this.root.gameWidth;

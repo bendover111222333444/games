@@ -1,4 +1,4 @@
-import { Vector, enumDirection } from "../../core/vector";
+import { Vector, enumDirection } from "../core/vector";
 import { LogicGateComponent, enumLogicGateType } from "../components/logic_gate";
 import { WiredPinsComponent, enumPinSlotType } from "../components/wired_pins";
 import { Entity } from "../entity";

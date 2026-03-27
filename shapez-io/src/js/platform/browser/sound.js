@@ -1,14 +1,14 @@
 import { MusicInstanceInterface, SoundInstanceInterface, SoundInterface, MUSIC, SOUNDS } from "../sound";
-import { cachebust } from "../../core/cachebust";
-import { createLogger } from "../../core/logging";
-import { globalConfig } from "../../core/config";
+import { cachebust } from "../core/cachebust";
+import { createLogger } from "../core/logging";
+import { globalConfig } from "../core/config";
 
 const { Howl, Howler } = require("howler");
 
 const logger = createLogger("sound/browser");
 
 // @ts-ignore
-const sprites = require("../../built-temp/sfx.json");
+const sprites = require("../built-temp/sfx.json");
 
 class SoundSpritesContainer {
     constructor() {

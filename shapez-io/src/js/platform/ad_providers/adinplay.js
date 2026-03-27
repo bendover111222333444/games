@@ -1,12 +1,12 @@
 /* typehints:start */
-import { Application } from "../../application";
+import { Application } from "../application";
 /* typehints:end */
 
 import { AdProviderInterface } from "../ad_provider";
-import { createLogger } from "../../core/logging";
-import { ClickDetector } from "../../core/click_detector";
-import { clamp } from "../../core/utils";
-import { T } from "../../translations";
+import { createLogger } from "../core/logging";
+import { ClickDetector } from "../core/click_detector";
+import { clamp } from "../core/utils";
+import { T } from "../translations";
 
 const logger = createLogger("adprovider/adinplay");
 

@@ -1,6 +1,6 @@
-import { STOP_PROPAGATION } from "../../../core/signal";
-import { Vector } from "../../../core/vector";
-import { enumMouseButton } from "../../camera";
+import { STOP_PROPAGATION } from "../../core/signal";
+import { Vector } from "../../core/vector";
+import { enumMouseButton } from "../camera";
 import { BaseHUDPart } from "../base_hud_part";
 
 export class HUDLeverToggle extends BaseHUDPart {

@@ -1,6 +1,6 @@
-import { globalConfig } from "../../core/config";
-import { Loader } from "../../core/loader";
-import { round1DigitLocalized, smoothPulse } from "../../core/utils";
+import { globalConfig } from "../core/config";
+import { Loader } from "../core/loader";
+import { round1DigitLocalized, smoothPulse } from "../core/utils";
 import { enumItemProcessorRequirements, enumItemProcessorTypes } from "../components/item_processor";
 import { Entity } from "../entity";
 import { GameSystem } from "../game_system";
@@ -26,7 +26,7 @@ export class ItemProcessorOverlaysSystem extends GameSystem {
 
     /**
      *
-     * @param {import("../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../core/draw_utils").DrawParameters} parameters
      * @param {MapChunkView} chunk
      */
     drawChunk(parameters, chunk) {
@@ -74,7 +74,7 @@ export class ItemProcessorOverlaysSystem extends GameSystem {
 
     /**
      *
-     * @param {import("../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../core/draw_utils").DrawParameters} parameters
      * @param {Entity} entity
      */
     drawReaderOverlays(parameters, entity) {
@@ -102,7 +102,7 @@ export class ItemProcessorOverlaysSystem extends GameSystem {
 
     /**
      *
-     * @param {import("../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../core/draw_utils").DrawParameters} parameters
      * @param {Entity} entity
      * @param {object} param0
      * @param {boolean=} param0.drawIfFalse

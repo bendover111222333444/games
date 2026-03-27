@@ -1,4 +1,4 @@
-import { TrackedState } from "../../core/tracked_state";
+import { TrackedState } from "../core/tracked_state";
 import { GameRoot } from "../root";
 
 // Automatically attaches and detaches elements from the dom

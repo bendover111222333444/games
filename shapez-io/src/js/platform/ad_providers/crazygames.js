@@ -1,6 +1,6 @@
 import { AdProviderInterface } from "../ad_provider";
-import { createLogger } from "../../core/logging";
-import { timeoutPromise } from "../../core/utils";
+import { createLogger } from "../core/logging";
+import { timeoutPromise } from "../core/utils";
 
 const logger = createLogger("crazygames");
 

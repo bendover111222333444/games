@@ -1,16 +1,16 @@
-import { globalConfig } from "../../core/config";
-import { DrawParameters } from "../../core/draw_parameters";
-import { Loader } from "../../core/loader";
-import { Rectangle } from "../../core/rectangle";
-import { FULL_CLIP_RECT } from "../../core/sprites";
-import { StaleAreaDetector } from "../../core/stale_area_detector";
+import { globalConfig } from "../core/config";
+import { DrawParameters } from "../core/draw_parameters";
+import { Loader } from "../core/loader";
+import { Rectangle } from "../core/rectangle";
+import { FULL_CLIP_RECT } from "../core/sprites";
+import { StaleAreaDetector } from "../core/stale_area_detector";
 import {
     enumDirection,
     enumDirectionToAngle,
     enumDirectionToVector,
     enumInvertedDirections,
     Vector,
-} from "../../core/vector";
+} from "../core/vector";
 import { BeltComponent } from "../components/belt";
 import { BeltUnderlaysComponent, enumClippedBeltUnderlayType } from "../components/belt_underlays";
 import { ItemAcceptorComponent } from "../components/item_acceptor";

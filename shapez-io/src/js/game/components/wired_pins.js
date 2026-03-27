@@ -1,7 +1,7 @@
-import { enumDirection, Vector } from "../../core/vector";
+import { enumDirection, Vector } from "../core/vector";
 import { BaseItem } from "../base_item";
 import { Component } from "../component";
-import { types } from "../../savegame/serialization";
+import { types } from "../savegame/serialization";
 import { typeItemSingleton } from "../item_resolver";
 
 /** @enum {string} */

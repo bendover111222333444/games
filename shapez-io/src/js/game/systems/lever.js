@@ -1,4 +1,4 @@
-import { Loader } from "../../core/loader";
+import { Loader } from "../core/loader";
 import { LeverComponent } from "../components/lever";
 import { GameSystemWithFilter } from "../game_system_with_filter";
 import { BOOL_FALSE_SINGLETON, BOOL_TRUE_SINGLETON } from "../items/boolean_item";
@@ -26,7 +26,7 @@ export class LeverSystem extends GameSystemWithFilter {
 
     /**
      * Draws a given chunk
-     * @param {import("../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../core/draw_utils").DrawParameters} parameters
      * @param {MapChunkView} chunk
      */
     drawChunk(parameters, chunk) {

@@ -43,8 +43,8 @@ export class AtlasDefinition {
 /** @type {AtlasDefinition[]} **/
 export const atlasFiles = require
     // @ts-ignore
-    .context("../../../res_built/atlas/", false, /.*\.json/i)
+    .context("../../res_built/atlas/", false, /.*\.json/i)
     .keys()
     .map(f => f.replace(/^\.\//gi, ""))
-    .map(f => require("../../../res_built/atlas/" + f))
+    .map(f => require("../../res_built/atlas/" + f))
     .map(data => new AtlasDefinition(data));

@@ -1,9 +1,9 @@
 /* typehints:start */
-import { PuzzlePlayGameMode } from "../../modes/puzzle_play";
+import { PuzzlePlayGameMode } from "../modes/puzzle_play";
 /* typehints:end */
 
-import { makeDiv } from "../../../core/utils";
-import { T } from "../../../translations";
+import { makeDiv } from "../../core/utils";
+import { T } from "../../translations";
 
 import { BaseHUDPart } from "../base_hud_part";
 

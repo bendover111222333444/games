@@ -1,5 +1,5 @@
-import { generateMatrixRotations } from "../../core/utils";
-import { Vector } from "../../core/vector";
+import { generateMatrixRotations } from "../core/utils";
+import { Vector } from "../core/vector";
 import { WireTunnelComponent } from "../components/wire_tunnel";
 import { Entity } from "../entity";
 import { defaultBuildingVariant, MetaBuilding } from "../meta_building";

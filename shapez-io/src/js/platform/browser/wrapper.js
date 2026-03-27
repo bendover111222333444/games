@@ -1,8 +1,8 @@
-import { globalConfig, IS_MOBILE } from "../../core/config";
-import { createLogger } from "../../core/logging";
-import { queryParamOptions } from "../../core/query_parameters";
-import { WEB_STEAM_SSO_AUTHENTICATED } from "../../core/steam_sso";
-import { clamp } from "../../core/utils";
+import { globalConfig, IS_MOBILE } from "../core/config";
+import { createLogger } from "../core/logging";
+import { queryParamOptions } from "../core/query_parameters";
+import { WEB_STEAM_SSO_AUTHENTICATED } from "../core/steam_sso";
+import { clamp } from "../core/utils";
 import { CrazygamesAdProvider } from "../ad_providers/crazygames";
 import { GamedistributionAdProvider } from "../ad_providers/gamedistribution";
 import { NoAdProvider } from "../ad_providers/no_ad_provider";

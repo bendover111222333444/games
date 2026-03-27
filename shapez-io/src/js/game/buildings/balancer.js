@@ -1,4 +1,4 @@
-import { enumDirection, Vector } from "../../core/vector";
+import { enumDirection, Vector } from "../core/vector";
 import { ItemAcceptorComponent } from "../components/item_acceptor";
 import { ItemEjectorComponent } from "../components/item_ejector";
 import { enumItemProcessorTypes, ItemProcessorComponent } from "../components/item_processor";
@@ -6,8 +6,8 @@ import { Entity } from "../entity";
 import { MetaBuilding, defaultBuildingVariant } from "../meta_building";
 import { GameRoot } from "../root";
 import { enumHubGoalRewards } from "../tutorial_goals";
-import { T } from "../../translations";
-import { formatItemsPerSecond, generateMatrixRotations } from "../../core/utils";
+import { T } from "../translations";
+import { formatItemsPerSecond, generateMatrixRotations } from "../core/utils";
 import { BeltUnderlaysComponent } from "../components/belt_underlays";
 
 /** @enum {string} */

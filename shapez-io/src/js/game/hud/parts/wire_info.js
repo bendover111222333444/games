@@ -1,9 +1,9 @@
-import { globalConfig } from "../../../core/config";
-import { MapChunkView } from "../../map_chunk_view";
-import { WireNetwork } from "../../systems/wire";
-import { THEME } from "../../theme";
+import { globalConfig } from "../../core/config";
+import { MapChunkView } from "../map_chunk_view";
+import { WireNetwork } from "../systems/wire";
+import { THEME } from "../theme";
 import { BaseHUDPart } from "../base_hud_part";
-import { Loader } from "../../../core/loader";
+import { Loader } from "../../core/loader";
 
 export class HUDWireInfo extends BaseHUDPart {
     initialize() {
@@ -13,7 +13,7 @@ export class HUDWireInfo extends BaseHUDPart {
 
     /**
      *
-     * @param {import("../../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../../core/draw_utils").DrawParameters} parameters
      */
     drawOverlays(parameters) {
         if (this.root.currentLayer !== "wires") {
@@ -81,7 +81,7 @@ export class HUDWireInfo extends BaseHUDPart {
     /**
      *
      *
-     * @param {import("../../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../../core/draw_utils").DrawParameters} parameters
      * @param {WireNetwork} network
      */
     drawHighlightedNetwork(parameters, network) {

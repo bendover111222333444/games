@@ -1,5 +1,5 @@
-import { THIRDPARTY_URLS } from "../../../core/config";
-import { T } from "../../../translations";
+import { THIRDPARTY_URLS } from "../../core/config";
+import { T } from "../../translations";
 import { BaseHUDPart } from "../base_hud_part";
 
 /**

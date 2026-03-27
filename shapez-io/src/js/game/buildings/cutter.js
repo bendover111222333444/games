@@ -1,6 +1,6 @@
-import { formatItemsPerSecond } from "../../core/utils";
-import { enumDirection, Vector } from "../../core/vector";
-import { T } from "../../translations";
+import { formatItemsPerSecond } from "../core/utils";
+import { enumDirection, Vector } from "../core/vector";
+import { T } from "../translations";
 import { ItemAcceptorComponent } from "../components/item_acceptor";
 import { ItemEjectorComponent } from "../components/item_ejector";
 import { enumItemProcessorTypes, ItemProcessorComponent } from "../components/item_processor";

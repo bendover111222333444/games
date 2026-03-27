@@ -1,4 +1,4 @@
-import { globalConfig } from "../../core/config";
+import { globalConfig } from "../core/config";
 import { BaseItem } from "../base_item";
 import { Component } from "../component";
 import { typeItemSingleton } from "../item_resolver";

@@ -1,7 +1,7 @@
-import { Loader } from "../../core/loader";
-import { generateMatrixRotations } from "../../core/utils";
-import { enumDirection, Vector } from "../../core/vector";
-import { SOUNDS } from "../../platform/sound";
+import { Loader } from "../core/loader";
+import { generateMatrixRotations } from "../core/utils";
+import { enumDirection, Vector } from "../core/vector";
+import { SOUNDS } from "../platform/sound";
 import { enumWireType, enumWireVariant, WireComponent } from "../components/wire";
 import { Entity } from "../entity";
 import { defaultBuildingVariant, MetaBuilding } from "../meta_building";
@@ -164,7 +164,7 @@ export class MetaWireBuilding extends MetaBuilding {
      *
      * @param {number} rotationVariant
      * @param {string} variant
-     * @returns {import("../../core/draw_utils").AtlasSprite}
+     * @returns {import("../core/draw_utils").AtlasSprite}
      */
     getPreviewSprite(rotationVariant, variant) {
         const wireVariant = enumWireVariantToVariant[variant];

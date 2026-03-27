@@ -1,4 +1,4 @@
-import { enumDirection, Vector } from "../../core/vector";
+import { enumDirection, Vector } from "../core/vector";
 import { Component } from "../component";
 
 /**

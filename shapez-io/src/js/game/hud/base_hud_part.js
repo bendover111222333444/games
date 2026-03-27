@@ -1,9 +1,9 @@
 /* typehints:start */
 import { GameRoot } from "../root";
-import { DrawParameters } from "../../core/draw_parameters";
+import { DrawParameters } from "../core/draw_parameters";
 /* typehints:end */
 
-import { ClickDetector } from "../../core/click_detector";
+import { ClickDetector } from "../core/click_detector";
 import { KeyActionMapper } from "../key_action_mapper";
 
 export class BaseHUDPart {
@@ -102,7 +102,7 @@ export class BaseHUDPart {
      * Helper method to construct a new click detector
      * @param {Element} element The element to listen on
      * @param {function} handler The handler to call on this object
-     * @param {import("../../core/click_detector").ClickDetectorConstructorArgs=} args Click detector arguments
+     * @param {import("../core/click_detector").ClickDetectorConstructorArgs=} args Click detector arguments
      *
      */
     trackClicks(element, handler, args = {}) {

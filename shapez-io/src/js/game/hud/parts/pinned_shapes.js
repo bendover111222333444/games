@@ -1,10 +1,10 @@
-import { ClickDetector } from "../../../core/click_detector";
-import { globalConfig } from "../../../core/config";
-import { arrayDeleteValue, formatBigNumber, makeDiv } from "../../../core/utils";
-import { T } from "../../../translations";
-import { enumAnalyticsDataSource } from "../../production_analytics";
-import { ShapeDefinition } from "../../shape_definition";
-import { enumHubGoalRewards } from "../../tutorial_goals";
+import { ClickDetector } from "../../core/click_detector";
+import { globalConfig } from "../../core/config";
+import { arrayDeleteValue, formatBigNumber, makeDiv } from "../../core/utils";
+import { T } from "../../translations";
+import { enumAnalyticsDataSource } from "../production_analytics";
+import { ShapeDefinition } from "../shape_definition";
+import { enumHubGoalRewards } from "../tutorial_goals";
 import { BaseHUDPart } from "../base_hud_part";
 
 /**

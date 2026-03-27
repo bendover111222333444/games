@@ -2,7 +2,7 @@
 import { Entity } from "../entity";
 /* typehints:end */
 
-import { enumDirection, Vector } from "../../core/vector";
+import { enumDirection, Vector } from "../core/vector";
 import { ConstantSignalComponent } from "../components/constant_signal";
 import { ItemEjectorComponent } from "../components/item_ejector";
 import { ItemProducerComponent } from "../components/item_producer";
@@ -28,7 +28,7 @@ export class MetaConstantProducerBuilding extends MetaBuilding {
 
     /**
      *
-     * @param {import("../../savegame/savegame_serializer").GameRoot} root
+     * @param {import("../savegame/savegame_serializer").GameRoot} root
      * @returns
      */
     getIsRemovable(root) {

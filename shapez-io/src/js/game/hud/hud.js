@@ -1,7 +1,7 @@
-import { globalConfig } from "../../core/config";
-import { DrawParameters } from "../../core/draw_parameters";
-import { Signal } from "../../core/signal";
-import { MOD_SIGNALS } from "../../mods/mod_signals";
+import { globalConfig } from "../core/config";
+import { DrawParameters } from "../core/draw_parameters";
+import { Signal } from "../core/signal";
+import { MOD_SIGNALS } from "../mods/mod_signals";
 import { KEYMAPPINGS } from "../key_action_mapper";
 import { MetaBuilding } from "../meta_building";
 import { GameRoot } from "../root";

@@ -1,5 +1,5 @@
 import { AnalyticsInterface } from "../analytics";
-import { createLogger } from "../../core/logging";
+import { createLogger } from "../core/logging";
 
 const logger = createLogger("ga");
 

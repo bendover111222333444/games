@@ -2,8 +2,8 @@
 import { GameRoot } from "../root";
 /* typehints:end */
 
-import { Rectangle } from "../../core/rectangle";
-import { types } from "../../savegame/serialization";
+import { Rectangle } from "../core/rectangle";
+import { types } from "../savegame/serialization";
 import { enumGameModeTypes, GameMode } from "../game_mode";
 import { HUDPuzzleBackToMenu } from "../hud/parts/puzzle_back_to_menu";
 import { HUDPuzzleDLCLogo } from "../hud/parts/puzzle_dlc_logo";

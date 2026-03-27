@@ -1,8 +1,8 @@
-import { DrawParameters } from "../../../core/draw_parameters";
-import { enumDirectionToVector, Vector } from "../../../core/vector";
-import { Entity } from "../../entity";
-import { KEYMAPPINGS } from "../../key_action_mapper";
-import { THEME } from "../../theme";
+import { DrawParameters } from "../../core/draw_parameters";
+import { enumDirectionToVector, Vector } from "../../core/vector";
+import { Entity } from "../entity";
+import { KEYMAPPINGS } from "../key_action_mapper";
+import { THEME } from "../theme";
 import { BaseHUDPart } from "../base_hud_part";
 
 export class HUDShapeTooltip extends BaseHUDPart {

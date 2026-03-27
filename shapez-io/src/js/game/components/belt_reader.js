@@ -1,7 +1,7 @@
 import { Component } from "../component";
 import { BaseItem } from "../base_item";
 import { typeItemSingleton } from "../item_resolver";
-import { types } from "../../savegame/serialization";
+import { types } from "../savegame/serialization";
 
 /** @enum {string} */
 export const enumBeltReaderType = {

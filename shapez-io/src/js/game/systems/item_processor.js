@@ -1,4 +1,4 @@
-import { globalConfig } from "../../core/config";
+import { globalConfig } from "../core/config";
 import { BaseItem } from "../base_item";
 import { enumColorMixingResults, enumColors } from "../colors";
 import {

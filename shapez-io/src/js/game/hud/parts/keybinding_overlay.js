@@ -1,13 +1,13 @@
-import { makeDiv } from "../../../core/utils";
-import { T } from "../../../translations";
+import { makeDiv } from "../../core/utils";
+import { T } from "../../translations";
 import {
     getStringForKeyCode,
     KEYCODE_LMB,
     KEYCODE_MMB,
     KEYCODE_RMB,
     KEYMAPPINGS,
-} from "../../key_action_mapper";
-import { enumHubGoalRewards } from "../../tutorial_goals";
+} from "../key_action_mapper";
+import { enumHubGoalRewards } from "../tutorial_goals";
 import { BaseHUDPart } from "../base_hud_part";
 import { DynamicDomAttach } from "../dynamic_dom_attach";
 

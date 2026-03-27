@@ -1,6 +1,6 @@
-import { globalConfig } from "../../../core/config";
-import { DrawParameters } from "../../../core/draw_parameters";
-import { Rectangle } from "../../../core/rectangle";
+import { globalConfig } from "../../core/config";
+import { DrawParameters } from "../../core/draw_parameters";
+import { Rectangle } from "../../core/rectangle";
 import { BaseHUDPart } from "../base_hud_part";
 
 /**

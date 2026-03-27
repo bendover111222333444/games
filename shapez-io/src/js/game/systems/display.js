@@ -1,5 +1,5 @@
-import { globalConfig } from "../../core/config";
-import { Loader } from "../../core/loader";
+import { globalConfig } from "../core/config";
+import { Loader } from "../core/loader";
 import { BaseItem } from "../base_item";
 import { enumColors } from "../colors";
 import { GameSystem } from "../game_system";
@@ -13,14 +13,14 @@ import { MapChunkView } from "../map_chunk_view";
 export const MODS_ADDITIONAL_DISPLAY_ITEM_RESOLVER = {};
 
 /** @type {{
- * [x: string]: (parameters: import("../../core/draw_parameters").DrawParameters, entity: import("../entity").Entity, item: BaseItem) => BaseItem
+ * [x: string]: (parameters: import("../core/draw_parameters").DrawParameters, entity: import("../entity").Entity, item: BaseItem) => BaseItem
  * }} */
 export const MODS_ADDITIONAL_DISPLAY_ITEM_DRAW = {};
 export class DisplaySystem extends GameSystem {
     constructor(root) {
         super(root);
 
-        /** @type {Object<string, import("../../core/draw_utils").AtlasSprite>} */
+        /** @type {Object<string, import("../core/draw_utils").AtlasSprite>} */
         this.displaySprites = {};
 
         for (const colorId in enumColors) {
@@ -66,7 +66,7 @@ export class DisplaySystem extends GameSystem {
 
     /**
      * Draws a given chunk
-     * @param {import("../../core/draw_utils").DrawParameters} parameters
+     * @param {import("../core/draw_utils").DrawParameters} parameters
      * @param {MapChunkView} chunk
      */
     drawChunk(parameters, chunk) {

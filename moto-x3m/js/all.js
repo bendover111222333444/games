@@ -106428,7 +106428,7 @@ function() {
             t("../constraints/RevoluteConstraint"),
             t("../constraints/PrismaticConstraint"),
             t("../constraints/GearConstraint"),
-            t("../../package.json"),
+            t("../package.json"),
             t("../collision/Broadphase"),
             t("../collision/AABB"))
               , g = t("../collision/SAPBroadphase")
@@ -106835,7 +106835,7 @@ function() {
             }
         }
         , {
-            "../../package.json": 6,
+            "../package.json": 6,
             "../collision/AABB": 7,
             "../collision/Broadphase": 8,
             "../collision/Narrowphase": 10,

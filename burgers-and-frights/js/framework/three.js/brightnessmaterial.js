@@ -3,7 +3,7 @@
  * @version 1.0.0
  */
 
-import * as THREE from '../../lib/three.js/three.module.js';
+import * as THREE from '../lib/three.js/three.module.js';
 
 const BrightnessShader = {
     uniforms: {

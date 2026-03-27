@@ -5240,7 +5240,7 @@
             e("../constraints/RevoluteConstraint"),
             e("../constraints/PrismaticConstraint"),
             e("../constraints/GearConstraint"),
-            e("../../package.json"),
+            e("../package.json"),
             e("../collision/Broadphase"),
             e("../collision/AABB"))
               , h = e("../collision/SAPBroadphase")
@@ -5740,7 +5740,7 @@
             }
         }
         , {
-            "../../package.json": 6,
+            "../package.json": 6,
             "../collision/AABB": 7,
             "../collision/Broadphase": 8,
             "../collision/Narrowphase": 10,

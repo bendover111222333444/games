@@ -1,4 +1,4 @@
-﻿/* briannetod.ttf */
+/* briannetod.ttf */
 @font-face {
 	font-family: "briannetod";
 	src: url("fonts/briannetod.ttf");
@@ -149,9 +149,9 @@ td.HandBookZombie {
 
 .WindowFrame {
 	transform: scale(0.9);
-	/* Điều chỉnh tỷ lệ theo nhu cầu */
+	/* �i?u ch?nh t? l? theo nhu c?u */
 	transform-origin: left;
-	/* Đặt điểm gốc cho hiệu ứng scale */
+	/* �?t di?m g?c cho hi?u ?ng scale */
 	position: absolute;
 	top: -27;
 	width: 900px;
@@ -1724,7 +1724,7 @@ dd.yellow {
 	position: absolute;
 	cursor: url(images/interface/Pointer.cur), pointer;
 	top: 410px;
-	font-family: 宋体;
+	font-family: ??;
 	color: #f93;
 	font-size: 24px;
 	font-weight: 700;

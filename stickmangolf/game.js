@@ -211,7 +211,7 @@ var _SETTINGS = {
   },
   MoreGames: {
       Enabled: !1,
-      Link: "../../../www.mobiltr.com/game/links/mobile.html",
+      Link: "../../www.mobiltr.com/game/links/mobile.html",
       NewWindow: !0
   },
   Gamecenter: {

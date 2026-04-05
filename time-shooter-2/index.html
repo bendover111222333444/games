@@ -8,7 +8,8 @@
     <title>Time Shooter 2</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
-  </head>
+  <script src="../storage/js/data.js"></script>
+</head>
   <body class="dark">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
@@ -253,6 +254,11 @@
       }
     </script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7e5468c40dc92aec","version":"2023.4.0","b":1,"token":"c843b8c381814d58b40d4597a1bf7962","si":100}' crossorigin="anonymous"></script>
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
 </body>
 </html>
 

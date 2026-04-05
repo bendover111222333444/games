@@ -32,6 +32,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" integrity="sha512-CwHUCK55pONjDxvPZQeuwKpxos8mPyEv9gGuWC8Vr0357J2uXg1PycGDPND9EgdokSFTG6kgSApoDj9OM22ksw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
     <script src="/sdk.js"></script>
+<script src="../storage/js/data.js"></script>
 </head>
 
 <body>
@@ -96,6 +97,11 @@
            catch(err) { } 
          }
       </script>
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
 </body>
 
 </html>

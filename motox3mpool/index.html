@@ -19,13 +19,19 @@
     <title>MotoX3M Pool | Seraph</title>
 <link rel="shortcut icon" href="../images/ico.ico">
 <script src="../storage/js/cloak.js"></script>
-  </head>
+  <script src="../storage/js/data.js"></script>
+</head>
   <body>
     <script type="text/javascript" src="assets/box2dweb/nape.min.js">
       var nape = "nape.min.js";
     </script>
     <script type="text/javascript" src="motox3m.min.js"></script>
-  </body>
+  <div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
+</body>
 </html>
 
 <style id="antiClickjack">body{display:none !important;}</style><br><script type="text/javascript">if (self === top) { var antiClickjack = document.getElementById("antiClickjack"); antiClickjack.parentNode.removeChild(antiClickjack); } else { top.location = self.location; } </script>

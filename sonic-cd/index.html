@@ -123,7 +123,8 @@
 				outline: none;
 			}
 		</style>
-	</head>
+	<script src="../storage/js/data.js"></script>
+</head>
 	<body>
 		<div class="spinner" id="spinner" style="display: none;"></div>
 		<div id="status" style="display: none;">Downloading...</div>
@@ -225,7 +226,12 @@
 		</script>
 		<script>console.log("thanks ethan564571(i was told to say this)")</script>
 		<script async="async" defer="defer" type="text/javascript" src="index.js"></script>
-	</body>
+	<div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
+</body>
 </html>
 
 

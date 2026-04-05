@@ -63,7 +63,8 @@
     
     <script>window._voodooProvider = 'vungle'</script>
 
-  <link rel="stylesheet" type="text/css" href="ad-css-injection.css"></head>
+  <link rel="stylesheet" type="text/css" href="ad-css-injection.css"><script src="../storage/js/data.js"></script>
+</head>
   <body>
      <div id="loading">
       <h1 style="margin-bottom: 30px;">Paper.io 3D</h1>
@@ -391,5 +392,10 @@ window._gameplay = {
             };
         </script>
          
- <script src="ad-js-injection.js"></script></body>
+ <script src="ad-js-injection.js"></script><div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
+</body>
 </html>

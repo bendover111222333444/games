@@ -1,4 +1,5 @@
 function exportData() {
+    alert("#1 YOU NEED TO EXPORT ON A GAME AND ON MAIN SITE FOR IT TO COPY PROPERLY \n#2 ONCE YOU EXPORT FOR ONE GAME IT WILL EXPORT FOR ALL GAMES \n#3 MEANING ONE EXPORT FOR MAIN SETTINGS ON MAIN PAGE AND ONE EXPORT FOR GAMES ON AN GAME \n#4 AND DO NOT MIX THE FILES GAMES HAVE -GAMES PREFIX FOR THAT");
     const cookies = document.cookie.split('; ').reduce((acc, cookie) => {
         const [name, value] = cookie.split('=');
         acc[name] = value;
@@ -21,7 +22,7 @@ function exportData() {
     const link = document.createElement('a');
     const currentDate = new Date().toISOString().slice(0, 10);
     link.href = URL.createObjectURL(blob);
-    link.download = `seraphdata-${currentDate}.save`;
+    link.download = `bendover-games${currentDate}.save`;
 
     document.body.appendChild(link);
     link.click();
@@ -29,6 +30,7 @@ function exportData() {
 }
 
 function importData() {
+    alert("#1 YOU NEED TO IMPORT ON A GAME AND ON MAIN SITE FOR IT TO COPY PROPERLY \n#2 ONCE YOU IMPORT FOR ONE GAME IT WILL IMPORT FOR ALL GAMES \n#3 MEANING ONE IMPORT FOR MAIN SETTINGS ON MAIN PAGE AND ONE IMPORT FOR GAMES ON AN GAME \n#4 AND DO NOT MIX THE FILES GAMES HAVE -GAMES PREFIX FOR THAT");
     const input = document.createElement('input');
     input.type = 'file';
     input.accept = '.save';
@@ -96,4 +98,9 @@ function clearData() {
     document.getElementById('cancel-clear').addEventListener('click', () => {
         document.body.removeChild(promptDiv);
     });
+}
+
+function infoData() {
+    alert("PLEASE READ, If you want to copy from other sites that are now down keep in mind three things \n #1 If it doesnt have the copy and import data functions you will have to run the function i give next \n #2 The site is split in two for a while now meaning if you dont have a tab open of any game you cannot copy your game data. This applies to main page settings to but instead with main page. \n 3# To open console press F12 or right click and inspect then at the top navigate to console tab (Ignore the warning for pasting code if there is one) and paste and it should give a file you can import into the new sites \n With that use this function if you need to");
+    window.open("../storage/html/script.html", "_blank");
 }

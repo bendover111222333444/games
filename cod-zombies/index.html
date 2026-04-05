@@ -18,7 +18,8 @@
 	/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
 	canvas.emscripten { border: 0px none; width:100%; height:100%; padding:0; margin: 0;}
 	</style>
-  </head>
+  <script src="../storage/js/data.js"></script>
+</head>
   <body ondrop="gotdrop(event);" ondragover="event.preventDefault()">
 	<div class="emscripten" id="status">Please allow/unblock our javascript to play.</div>
 	<div id="dropzone" ondrop="gotdrop(event);" ondragover="event.preventDefault()" hidden=1>Drop Zone</div>
@@ -192,7 +193,12 @@ else
 	showfiles();	//otherwise show our lame file dropper and wait for the user to click 'go'.
     </script>  
     <img src="https://hits.sh/hits.sh/nzp-team.github.io/latest/game.html/hits.svg" style="opacity:0;width:0px;">
-  </body>
+  <div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
+</body>
 </html>
 
 

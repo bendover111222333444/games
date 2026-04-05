@@ -76,5 +76,10 @@
         </script>
 <script src="register-sw.js"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d46a7dab6986d2","version":"2022.11.0","r":1,"token":"1646abcce58241b1aef359d9d36b339d","si":100}' crossorigin="anonymous"></script>
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 8px;">
+    <button onclick="exportData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Export Saves</button>
+    <button onclick="importData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Saves</button>
+    <button onclick="infoData()" style="background-color: #2a2a2a; color: white; border: 3px; border-radius: 10px; padding: 16px; text-align: center; font-size: 17px; font-weight: bold; cursor: pointer; display: block; margin-bottom: 8px;">Import Blocked</button>
+</div>
 </body>
 </html>

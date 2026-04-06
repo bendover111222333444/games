@@ -22,12 +22,12 @@
     const jsonData = JSON.stringify(data);
     const blob = new Blob([jsonData], { type: 'application/json' });
 
-    const link = document.createElement('a');
+    let doclink = document.createElement('a');
     const currentDate = new Date().toISOString().slice(0, 10);
-    link.href = URL.createObjectURL(blob);
-    link.download = `bendover-old-DONTMIX${currentDate}.save`;
+    doclink.href = URL.createObjectURL(blob);
+    doclink.download = `bendover-old-DONTMIX${currentDate}.save`;
 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    document.body.appendChild(doclink);
+    doclink.click();
+    document.body.removeChild(doclink);
 </textarea>
